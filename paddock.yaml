@@ -1,0 +1,6 @@
+# paddock.yaml
+# Configuration profile for Mariana's Paddock platform execution engine
+
+entrypoint: "python predict.py"
+model_file: "f1_regressor_multi_season_2.65.pkl"
+output_type: "stdout"
